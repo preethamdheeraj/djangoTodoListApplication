@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  todo_projects:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    #volumes:
+     # - ./todo_projects/todo_projects
+     # - type: volume
+     # - source: ./
+    command: sh -c "python manage.py runserver 0.0.0.0:8000"
+    environment:
+      -  DEBUG = 1
+    
