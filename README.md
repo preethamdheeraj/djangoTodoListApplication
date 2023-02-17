@@ -1,6 +1,4 @@
 # djangoToDolistApplication
-ToDo list project using Django REST framework
-add the instructions to run the project later
 
 asgiref==3.5.2 Django==3.2.9 pytz==2022.1 sqlparse==0.4.2 uWSGI>=2.0.18,<2.1
 
